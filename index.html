@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Tap Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+    .game-box {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🧮 Math Tap Game</h1>
+
+  <div class="game-box">
+    <p id="question">Press Start</p>
+    <p>Score: <span id="score">0</span></p>
+    <p>Time: <span id="time">30</span>s</p>
+
+    <div id="answers"></div>
+
+    <br>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <!-- Ad space (AdSense goes here later) -->
+  <p style="margin-top:30px;">[ Ad shows here ]</p>
+
+  <script src="game.js"></script>
+</body>
+</html>
